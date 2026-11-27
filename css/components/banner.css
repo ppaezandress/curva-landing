@@ -1,0 +1,59 @@
+/* ---------- Banner ---------- */
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 120px 32px 80px;
+  color: var(--white);
+  /* graphite + blue glow + a soft grid: the CURVA hero */
+  background-color: var(--graphite);
+  background-image:
+    radial-gradient(circle at 85% 10%, rgba(13, 120, 255, 0.42) 0%, rgba(0, 27, 65, 0) 55%),
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: auto, 96px 96px, 96px 96px;
+  /* the "estela": a 34° cut on the bottom right corner (tan 34° = 0.6745) */
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 120px), calc(100% - 178px) 100%, 0 100%);
+}
+
+/* big CURVA symbol on the right of the banner */
+.banner-symbol {
+  position: absolute;
+  right: max(32px, calc((100% - 1120px) / 2));
+  top: 50%;
+  height: 340px;
+  transform: translateY(-50%);
+  filter: drop-shadow(0 24px 60px rgba(223, 63, 0, 0.35));
+  animation: float 7s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(-50%); }
+  50% { transform: translateY(calc(-50% - 14px)); }
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner h1 {
+  font-size: 64px;
+  font-weight: 700;
+  max-width: 820px;
+  letter-spacing: -0.02em;
+}
+
+.banner-text {
+  font-size: 20px;
+  max-width: 620px;
+  margin: 24px 0 40px;
+  color: var(--steel-light);
+}

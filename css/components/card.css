@@ -1,0 +1,56 @@
+/* ---------- Cards (grid) ---------- */
+
+.cards {
+  display: grid;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.cards-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cards-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  background-color: var(--white);
+  border: 1px solid var(--steel-light);
+  border-radius: var(--radius);
+  padding: 32px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 27, 65, 0.1);
+}
+
+.card-small {
+  padding: 24px;
+}
+
+.card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: var(--blue-100);
+  color: var(--blue);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: var(--graphite);
+  margin-bottom: 8px;
+}
+
+.card p {
+  margin: 0;
+  color: var(--steel);
+}

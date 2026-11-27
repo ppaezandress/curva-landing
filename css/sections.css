@@ -1,0 +1,21 @@
+/* ---------- Sections ---------- */
+
+.section {
+  padding: 96px 0;
+}
+
+.section-light {
+  background-color: var(--mist);
+}
+
+.section h2 {
+  font-size: 40px;
+  max-width: 680px;
+  color: var(--graphite);
+}
+
+.section-text {
+  color: var(--steel);
+  font-size: 18px;
+  margin: 12px 0 0;
+}

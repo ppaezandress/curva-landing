@@ -1,0 +1,18 @@
+/* ---------- Footer ---------- */
+
+.footer {
+  background-color: var(--graphite);
+  color: var(--steel-light);
+  text-align: center;
+  padding: 48px 24px;
+  font-size: 14px;
+}
+
+.footer-logo {
+  height: 28px;
+  margin-bottom: 12px;
+}
+
+.footer a {
+  color: var(--sky);
+}

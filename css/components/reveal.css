@@ -1,0 +1,16 @@
+/* cards fade up when they scroll into view (only if JS is on) */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner-symbol { animation: none; }
+  .js .reveal { opacity: 1; transform: none; transition: none; }
+}

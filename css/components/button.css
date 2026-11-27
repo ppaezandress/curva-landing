@@ -1,0 +1,20 @@
+/* ---------- Buttons ---------- */
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-cta {
+  background-color: var(--lacquer-cta);
+  color: var(--white);
+}
+
+.btn-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(210, 59, 0, 0.35);
+}

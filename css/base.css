@@ -1,0 +1,45 @@
+/* ============================================
+   CURVA · startup landing
+   Palette and type from the CURVA brand book v3
+   ============================================ */
+
+:root {
+  --white: #FFFFFF;
+  --mist: #F1F6FF;          /* light background */
+  --blue: #0D78FF;          /* brand blue: icons, lines */
+  --blue-text: #0062D4;     /* blue with text on top or below: 5.68:1 */
+  --blue-100: #DFEBFF;
+  --sky: #78ABFF;           /* only on dark backgrounds */
+  --navy: #001B41;
+  --graphite: #0A0D12;
+  --ink: #263143;           /* body text: 13.1:1 */
+  --steel: #5A6B85;         /* secondary text: 5.42:1 */
+  --steel-light: #C6D8F5;
+  --lacquer-cta: #D23B00;   /* the only CTA color, white text: 4.81:1 */
+  --radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.15;
+  margin: 0;
+}

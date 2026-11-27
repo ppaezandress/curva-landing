@@ -1,0 +1,38 @@
+/* ---------- Navbar ---------- */
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* lines the logo up with the banner text */
+  padding: 24px max(32px, calc((100% - 1120px) / 2));
+}
+
+.navbar-logo img {
+  height: 26px;
+  display: block;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.navbar-links a:hover {
+  opacity: 1;
+}

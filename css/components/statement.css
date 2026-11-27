@@ -1,0 +1,15 @@
+/* ---------- Statement band ---------- */
+
+.statement {
+  background-color: var(--navy);
+  padding: 72px 0;
+}
+
+.statement p {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--white);
+  text-align: center;
+}

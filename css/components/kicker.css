@@ -1,0 +1,15 @@
+/* ---------- Small label above titles ---------- */
+
+.kicker {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sky);
+  margin: 0 0 16px;
+}
+
+.kicker-blue {
+  color: var(--blue-text);
+}

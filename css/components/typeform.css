@@ -1,0 +1,14 @@
+/* ---------- Typeform ---------- */
+
+.typeform {
+  margin-top: 40px;
+  border: 1px solid var(--steel-light);
+  border-radius: var(--radius);
+  overflow: hidden;
+  height: 520px;
+}
+
+.typeform > div {
+  width: 100%;
+  height: 100%;
+}
