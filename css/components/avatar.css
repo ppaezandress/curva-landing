@@ -1,0 +1,36 @@
+/* ---------- Avatar (Le Wagon UI kit) ---------- */
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-large {
+  width: 56px;
+  height: 56px;
+  border: 2px solid var(--blue-100);
+}
+
+.avatar-contact {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 32px;
+}
+
+.avatar-contact p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.avatar-contact strong {
+  display: block;
+  color: var(--graphite);
+}
+
+.avatar-contact span {
+  color: var(--steel);
+  font-size: 14px;
+}
